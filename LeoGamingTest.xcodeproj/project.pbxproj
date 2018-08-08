@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0C5854211A0BA800E46698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C5853211A0BA800E46698 /* AppDelegate.m */; };
+		6D0C585D211A0BA800E46698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C585B211A0BA800E46698 /* Main.storyboard */; };
+		6D0C585F211A0BA900E46698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C585E211A0BA900E46698 /* Assets.xcassets */; };
+		6D0C5862211A0BA900E46698 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C5860211A0BA900E46698 /* LaunchScreen.storyboard */; };
+		6D0C5865211A0BA900E46698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C5864211A0BA900E46698 /* main.m */; };
+		6D2F0891211A0E8000981AEC /* LGTHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0890211A0E8000981AEC /* LGTHeaderViewController.m */; };
+		6D2F0894211A15C100981AEC /* LGTGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0893211A15C100981AEC /* LGTGradientView.m */; };
+		6D2F0897211A1A9E00981AEC /* LGTRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0896211A1A9E00981AEC /* LGTRoundedButton.m */; };
+		6D2F089A211A321700981AEC /* LGTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F0899211A321700981AEC /* LGTMainViewController.m */; };
+		6D2F089F211B5D1E00981AEC /* LGTSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F089E211B5D1E00981AEC /* LGTSearchViewController.m */; };
+		6D2F08A2211B5D6D00981AEC /* LGTAccountManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F08A1211B5D6D00981AEC /* LGTAccountManagementViewController.m */; };
+		6D2F08A5211B6BE500981AEC /* LGTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F08A4211B6BE500981AEC /* LGTTableViewCell.m */; };
+		6D2F08A9211B6FA400981AEC /* LGTAccountItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F08A8211B6FA400981AEC /* LGTAccountItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D0C584F211A0BA800E46698 /* LeoGamingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeoGamingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0C5852211A0BA800E46698 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D0C5853211A0BA800E46698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D0C585C211A0BA800E46698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D0C585E211A0BA900E46698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D0C5861211A0BA900E46698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D0C5863211A0BA900E46698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0C5864211A0BA900E46698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D2F088F211A0E8000981AEC /* LGTHeaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTHeaderViewController.h; sourceTree = "<group>"; };
+		6D2F0890211A0E8000981AEC /* LGTHeaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTHeaderViewController.m; sourceTree = "<group>"; };
+		6D2F0892211A15C100981AEC /* LGTGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTGradientView.h; sourceTree = "<group>"; };
+		6D2F0893211A15C100981AEC /* LGTGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTGradientView.m; sourceTree = "<group>"; };
+		6D2F0895211A1A9E00981AEC /* LGTRoundedButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTRoundedButton.h; sourceTree = "<group>"; };
+		6D2F0896211A1A9E00981AEC /* LGTRoundedButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTRoundedButton.m; sourceTree = "<group>"; };
+		6D2F0898211A321700981AEC /* LGTMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTMainViewController.h; sourceTree = "<group>"; };
+		6D2F0899211A321700981AEC /* LGTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTMainViewController.m; sourceTree = "<group>"; };
+		6D2F089D211B5D1E00981AEC /* LGTSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTSearchViewController.h; sourceTree = "<group>"; };
+		6D2F089E211B5D1E00981AEC /* LGTSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTSearchViewController.m; sourceTree = "<group>"; };
+		6D2F08A0211B5D6D00981AEC /* LGTAccountManagementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTAccountManagementViewController.h; sourceTree = "<group>"; };
+		6D2F08A1211B5D6D00981AEC /* LGTAccountManagementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTAccountManagementViewController.m; sourceTree = "<group>"; };
+		6D2F08A3211B6BE500981AEC /* LGTTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTTableViewCell.h; sourceTree = "<group>"; };
+		6D2F08A4211B6BE500981AEC /* LGTTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTTableViewCell.m; sourceTree = "<group>"; };
+		6D2F08A7211B6FA400981AEC /* LGTAccountItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTAccountItem.h; sourceTree = "<group>"; };
+		6D2F08A8211B6FA400981AEC /* LGTAccountItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTAccountItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D0C584C211A0BA800E46698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D0C5846211A0BA800E46698 = {
+			isa = PBXGroup;
+			children = (
+				6D0C5851211A0BA800E46698 /* LeoGamingTest */,
+				6D0C5850211A0BA800E46698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D0C5850211A0BA800E46698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C584F211A0BA800E46698 /* LeoGamingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D0C5851211A0BA800E46698 /* LeoGamingTest */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C586C211A0BD300E46698 /* Resources */,
+				6D0C586B211A0BCB00E46698 /* Sources */,
+			);
+			path = LeoGamingTest;
+			sourceTree = "<group>";
+		};
+		6D0C586B211A0BCB00E46698 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F08A6211B6F6900981AEC /* ModelObjects */,
+				6D2F089C211B5CED00981AEC /* ViewControllers */,
+				6D2F089B211B5CDA00981AEC /* Controls */,
+				6D0C5852211A0BA800E46698 /* AppDelegate.h */,
+				6D0C5853211A0BA800E46698 /* AppDelegate.m */,
+				6D0C5864211A0BA900E46698 /* main.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6D0C586C211A0BD300E46698 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C585B211A0BA800E46698 /* Main.storyboard */,
+				6D0C585E211A0BA900E46698 /* Assets.xcassets */,
+				6D0C5860211A0BA900E46698 /* LaunchScreen.storyboard */,
+				6D0C5863211A0BA900E46698 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D2F089B211B5CDA00981AEC /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F08A3211B6BE500981AEC /* LGTTableViewCell.h */,
+				6D2F08A4211B6BE500981AEC /* LGTTableViewCell.m */,
+				6D2F0892211A15C100981AEC /* LGTGradientView.h */,
+				6D2F0893211A15C100981AEC /* LGTGradientView.m */,
+				6D2F0895211A1A9E00981AEC /* LGTRoundedButton.h */,
+				6D2F0896211A1A9E00981AEC /* LGTRoundedButton.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		6D2F089C211B5CED00981AEC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F088F211A0E8000981AEC /* LGTHeaderViewController.h */,
+				6D2F0890211A0E8000981AEC /* LGTHeaderViewController.m */,
+				6D2F0898211A321700981AEC /* LGTMainViewController.h */,
+				6D2F0899211A321700981AEC /* LGTMainViewController.m */,
+				6D2F089D211B5D1E00981AEC /* LGTSearchViewController.h */,
+				6D2F089E211B5D1E00981AEC /* LGTSearchViewController.m */,
+				6D2F08A0211B5D6D00981AEC /* LGTAccountManagementViewController.h */,
+				6D2F08A1211B5D6D00981AEC /* LGTAccountManagementViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6D2F08A6211B6F6900981AEC /* ModelObjects */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F08A7211B6FA400981AEC /* LGTAccountItem.h */,
+				6D2F08A8211B6FA400981AEC /* LGTAccountItem.m */,
+			);
+			path = ModelObjects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D0C584E211A0BA800E46698 /* LeoGamingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0C5868211A0BA900E46698 /* Build configuration list for PBXNativeTarget "LeoGamingTest" */;
+			buildPhases = (
+				6D0C584B211A0BA800E46698 /* Sources */,
+				6D0C584C211A0BA800E46698 /* Frameworks */,
+				6D0C584D211A0BA800E46698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeoGamingTest;
+			productName = LeoGamingTest;
+			productReference = 6D0C584F211A0BA800E46698 /* LeoGamingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D0C5847211A0BA800E46698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LGT;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Konstantin Boichenko";
+				TargetAttributes = {
+					6D0C584E211A0BA800E46698 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 6D0C584A211A0BA800E46698 /* Build configuration list for PBXProject "LeoGamingTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D0C5846211A0BA800E46698;
+			productRefGroup = 6D0C5850211A0BA800E46698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D0C584E211A0BA800E46698 /* LeoGamingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D0C584D211A0BA800E46698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0C5862211A0BA900E46698 /* LaunchScreen.storyboard in Resources */,
+				6D0C585F211A0BA900E46698 /* Assets.xcassets in Resources */,
+				6D0C585D211A0BA800E46698 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D0C584B211A0BA800E46698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F0894211A15C100981AEC /* LGTGradientView.m in Sources */,
+				6D2F089F211B5D1E00981AEC /* LGTSearchViewController.m in Sources */,
+				6D2F089A211A321700981AEC /* LGTMainViewController.m in Sources */,
+				6D2F0891211A0E8000981AEC /* LGTHeaderViewController.m in Sources */,
+				6D0C5854211A0BA800E46698 /* AppDelegate.m in Sources */,
+				6D2F0897211A1A9E00981AEC /* LGTRoundedButton.m in Sources */,
+				6D2F08A9211B6FA400981AEC /* LGTAccountItem.m in Sources */,
+				6D0C5865211A0BA900E46698 /* main.m in Sources */,
+				6D2F08A5211B6BE500981AEC /* LGTTableViewCell.m in Sources */,
+				6D2F08A2211B5D6D00981AEC /* LGTAccountManagementViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D0C585B211A0BA800E46698 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D0C585C211A0BA800E46698 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D0C5860211A0BA900E46698 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D0C5861211A0BA900E46698 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D0C5866211A0BA900E46698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D0C5867211A0BA900E46698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D0C5869211A0BA900E46698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPGGL8CY5M;
+				INFOPLIST_FILE = LeoGamingTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktoyta.LeoGamingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D0C586A211A0BA900E46698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPGGL8CY5M;
+				INFOPLIST_FILE = LeoGamingTest/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktoyta.LeoGamingTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D0C584A211A0BA800E46698 /* Build configuration list for PBXProject "LeoGamingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0C5866211A0BA900E46698 /* Debug */,
+				6D0C5867211A0BA900E46698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0C5868211A0BA900E46698 /* Build configuration list for PBXNativeTarget "LeoGamingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0C5869211A0BA900E46698 /* Debug */,
+				6D0C586A211A0BA900E46698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D0C5847211A0BA800E46698 /* Project object */;
+}
